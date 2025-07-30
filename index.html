@@ -34,11 +34,26 @@
       border: 1px solid #ccc;
       margin-top: 20px;
     }
+    .instructions {
+      background-color: #eef7ff;
+      border-left: 4px solid #0077cc;
+      padding: 10px 15px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
 
   <h2>Formatted Article Text Extractor</h2>
+  <div class="instructions">
+    <strong>How to get HTML from a webpage:</strong>
+    <ol>
+      <li>Go to the article or webpage you want to extract text from.</li>
+      <li>Right-click anywhere on the page and select <strong>"View Page Source"</strong> (or press <strong>Ctrl + U</strong> on your keyboard).</li>
+      <li>Select all the code (Ctrl + A), copy it (Ctrl + C), and paste it into the box below.</li>
+    </ol>
+  </div>
+
   <p>Paste the full HTML of a webpage below. We'll keep the readable parts (like paragraphs, headers, and lists) and remove the junk (like ads, scripts, images).</p>
 
   <textarea id="htmlInput" placeholder="Paste full HTML here..."></textarea>
